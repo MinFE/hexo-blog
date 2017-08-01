@@ -1,0 +1,25 @@
+.mb__footer {
+	text-align: center;
+	background-color: $bgc-footer;
+	border-top: $border-w solid $border-c;
+	padding: 30px 0;
+}
+
+.mb-footer__text {
+	line-height: 30px;
+}
+
+.mb-footer__links {
+	margin-bottom: 10px;
+}
+
+.mb-fooer-links__item {
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+
+	& + & {
+		margin-left: 10px;
+	}
+}

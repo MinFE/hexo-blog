@@ -1,0 +1,18 @@
+.input {
+	display: inline-block;
+	outline: none;
+	border: $border-w solid $main-color;
+	color: inherit;
+	border-radius: $border-radius;
+	padding: 8px 1em;
+	appearance: none;
+	background-color: rgba(160, 160, 160, .08);
+	box-shadow: none;
+	transition: border .3s, box-shadow .3s;
+
+	&:hover,
+	&:focus {
+		border-color: $main-color;
+		box-shadow: inset 0 0 0 $border-w $main-color;
+	}
+}

@@ -1,0 +1,80 @@
+.mb-posts__btn-more {
+	// display: none;
+	display: block;
+	background-color: $bgc-header;
+	text-align: center;
+	color: $tool-color--level-1;
+	line-height: 30px;
+	margin-top: $layout-padding;
+	cursor: pointer;
+	transition: background-color $transition;
+
+	&>* {
+		vertical-align: middle;
+	}
+
+	&:hover {
+		background-color: $main-color--hover;
+		color: #fff;
+	}
+
+	.iconfont {
+		position: relative;
+		display: none;
+		width: 16px;
+		height: 16px;
+		margin-right: 5px;
+		animation: rotate 1s linear infinite;
+
+		&::before {
+			position: absolute;
+			top: 1px;
+			left: 0;
+			line-height: 1;
+		}
+
+		@keyframes rotate {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(1turn); }
+		}
+	}
+
+	&.js-loading {
+		.iconfont {
+			display: inline-block;
+		}
+	}
+}
+
+.mb__paginator {
+	display: block;
+	line-height: 32px;
+	font-size: 16px;
+	text-align: center;
+	margin-top: $layout-padding;
+
+	.paginator__item {
+		display: inline-block;
+		text-decoration: none;
+		height: 30px;
+		border-radius: 2px;
+		width: 30px;
+		color: $tool-color--level-1;
+		background-color: $main-color;
+		cursor: pointer;
+
+		& + & {
+			margin-left: 5px;
+		}
+
+		&:hover,
+		&:active {
+			background-color: $main-color--hover;
+		}
+
+		&.js-disabled {
+			background-color: #cecece;
+			cursor: default;
+		}
+	}
+}

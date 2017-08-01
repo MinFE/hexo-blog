@@ -1,0 +1,182 @@
+/**
+ * blog mixins 
+ */
+
+ .clearfix {
+ 	*zoom: 1;
+
+ 	&::after {
+ 		content:'';
+ 		display: table;
+ 		clear: both;
+ 	}
+ }
+
+@mixin md-style() {
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+
+    a {
+        color: #08c;
+        text-decoration: underline;
+        transition: color .3s;
+
+        &:hover {
+            color: #5BA4E5;
+        }
+    }
+
+    blockquote, dl, form, hr, ol, p, pre, table, ul {
+        margin-bottom: 1.2em;
+
+        blockquote, dl, form, hr, ol, p, pre, table, ul {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    h1, h2, h3, h4, h4, h6 {
+        margin-top: 1.2em;
+        margin-bottom: .6em;
+        color: $title-fc;
+        font-weight: normal;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    blockquote {
+        position: relative;
+        font-weight: 400;
+        border: $border-w solid $border-c;
+        border-left-color: $main-color;
+        border-left-width: 4px;
+        margin: 1em 0;
+        padding: 1em 1em;
+    }
+
+    ul, ol {
+        padding-left: 1.5em;
+    }
+
+    code {
+        padding: 0 .4em;
+        margin: 0;
+        background-color: rgba(27,31,35,0.05);
+        border-radius: 3px;
+        font-weight: 400;
+        word-break: break-all;
+    }
+
+    .highlight {
+        margin: 10px 0;
+        background-color: #272822;
+        font-size: 14px !important;
+        color: #fff;
+        line-height: 1.6;
+        padding: .5em;
+        overflow: auto;
+
+        .line {
+            height: 22px;
+        }
+
+        table {
+            width: auto;
+            margin: 0;
+            border: 0;
+
+            tr {
+                td,
+                th {
+                    border: 0;
+                    padding: 0;
+                    background-color: transparent !important;
+                }
+            }
+        }
+
+        .gutter pre {
+            min-width: 18px;
+            margin-right: .8em;
+            text-align: right;
+            color: #8F908A;
+        }
+
+        .code {
+            .tag {
+                .name {
+                    color: #F92672;
+                }
+                .attr {
+                    color: #74E22E;
+                }
+                .string {
+                    color: #E6DB74;
+                }
+            }
+
+            .comment {
+                color: #75715E;
+            }
+            .keyword {
+                color: #66D9EF;
+            }
+            .attr {
+                color: #E6DB74;
+            }
+            .literal,
+            .number {
+                color: #AE81FF;
+            }
+            .string {
+                color: #E6DB74;
+            }
+            .built_in {
+                color: #66D9EF;
+            }
+            .function {
+                color: #66D9EF;
+
+                .params {
+                    color: #FD9720;
+                }
+            }
+            
+        }
+    }
+
+    table {
+        width: 100%;
+        border: $border-w solid $border-c;
+        border-collapse: collapse;
+
+        th {
+            font-weight: 700;
+        }
+
+        th,
+        td {
+            padding: .5em;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        tbody > tr:nth-child(2n+1)>td {
+            background-color: rgba(102,128,153,.05);
+        }
+    }
+}

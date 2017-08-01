@@ -1,0 +1,12 @@
+# Code Highlight theme
+# Available value:
+#    normal | night | eighties | blue | bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+
+menu:
+  home: /
+  article: /article
+  works: /demo
+  music: /music
+  about: /about

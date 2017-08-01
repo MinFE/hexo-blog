@@ -1,0 +1,39 @@
+$path: '../../fonts/';
+
+@font-face {font-family: "iconfont";
+  src: url($path + 'iconfont.eot?t=1491407740717'); /* IE9*/
+  src: url($path + 'iconfont.eot?t=1491407740717#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url($path + 'iconfont.woff?t=1491407740717') format('woff'), /* chrome, firefox */
+  url($path + 'iconfont.ttf?t=1491407740717') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url($path + 'iconfont.svg?t=1491407740717#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before { content: "\f002d"; }
+
+.icon-duihuaqipao2:before { content: "\f005a"; }
+
+.icon-unie61d:before { content: "\e60a"; }
+
+.icon-facebook:before { content: "\e6ae"; }
+
+.icon-github:before { content: "\e735"; }
+
+.icon-caidan01:before { content: "\e606"; }
+
+.icon-back-top:before { content: "\e61b"; }
+
+.icon-xinjian:before { content: "\e6a1"; }
+
+.icon-zhihu:before { content: "\e634"; }
+
+.icon-aixin:before { content: "\e620"; }
+
+.icon-tuite:before { content: "\e653"; }

@@ -1,0 +1,18 @@
+.md__back-top {
+    position: fixed;
+    right: 1.5em;
+    bottom: 4em;
+    line-height: 0;
+    cursor: pointer;
+    transition: color .3s;
+    padding: .5em;
+
+    &:hover {
+        color: $main-color;
+    }
+
+    & > i {
+        font-size: 40px;
+        line-height: 1;
+    }
+}
