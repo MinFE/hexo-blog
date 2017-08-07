@@ -8,7 +8,7 @@ $main-color--hover: lighten($main-color, 10%)		!default;
 $tool-color--level-1: #fff							!default;
 $tool-color--level-2: #ddd							!default;
 $tool-color--level-3: #f7f7f7						!default;
-$tool-color--level-4: #666							!default;
+$tool-color--level-4: rgba(0, 0, 0, .6)				!default;
 $tool-color--level-5: #333							!default;
 
 $font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "PingFang SC","Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Microsoft Sans Serif","WenQuanYi Micro Hei",sans !default;
