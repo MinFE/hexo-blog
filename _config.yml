@@ -125,6 +125,8 @@ neat_enable: true
 neat_html:
   enable: true
   exclude:
+    - 'baidu_verify_lBEZd5Eyfg.html'
+    - 'googlefd247a6616e15095.html'
   
 neat_css:
   enable: true
