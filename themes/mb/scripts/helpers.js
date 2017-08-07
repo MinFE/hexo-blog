@@ -101,6 +101,8 @@ hexo.extend.helper.register('mb_archives', function(posts) {
 	const getTime = date => (new Date(this.date_xml(date))).getTime();
 
 	posts.data.forEach(post => {
+		if (post.draft) return;
+
 		let 
 			year = this.date(post.date, 'YYYY'),
 			archiveIndex = archives.findIndex(archive => year === archive.year),
