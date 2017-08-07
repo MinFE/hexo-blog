@@ -86,8 +86,7 @@
     			color: $main-color--hover;
     		}
 
-    		i {
-    			font-size: 1.4em;
+    		& > i {
     			vertical-align: middle;
     		}
 		}

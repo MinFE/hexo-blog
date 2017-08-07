@@ -63,7 +63,7 @@
 		background-color: $main-color;
 		cursor: pointer;
 
-		& + & {
+		& + .paginator__item {
 			margin-left: 5px;
 		}
 

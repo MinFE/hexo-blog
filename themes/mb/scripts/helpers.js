@@ -68,14 +68,14 @@ hexo.extend.helper.register('mb_paginator', function(isUnite) {
 							? url_for(page.prev_link)
 							: 'javascript:void(0)'
 						}" title="上一页" alt="上一页">
-						<i class="iconfont icon-shangyibu"></i>
+						<i class="iconfont icon-prev"></i>
 					</a>
 					<a class="paginator__item ${ page.next ? '' : 'js-disabled' }" href="${
 						page.next
 							? url_for(page.next_link)
 							: 'javascript:void(0)'
 						}" title="下一页" alt="下一页">
-						<i class="iconfont icon-xiayibu"></i>
+						<i class="iconfont icon-next"></i>
 					</a>
 				</div>
 			`;

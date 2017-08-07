@@ -34,12 +34,12 @@
 			<div class="post__prevs">
 				<div class="post__prev">
 					{% if post.next %}
-					<a href="{{ url_for(post.next.path) }}" title="{{ post.next.title }}"><i class="iconfont icon-shangyibu"></i>{{ post.next.title }}</a>
+					<a href="{{ url_for(post.next.path) }}" title="{{ post.next.title }}"><i class="iconfont icon-prev"></i>{{ post.next.title }}</a>
 					{% endif %}
 				</div>
 				<div class="post__prev post__prev--right">
 					{% if post.prev %}
-					<a href="{{ url_for(post.prev.path) }}" title="{{ post.prev.title }}">{{ post.prev.title }}<i class="iconfont icon-xiayibu"></i></a>
+					<a href="{{ url_for(post.prev.path) }}" title="{{ post.prev.title }}">{{ post.prev.title }}<i class="iconfont icon-next"></i></a>
 					{% endif %}
 				</div>
 			</div>
