@@ -3,6 +3,7 @@
 <meta name="author" content="{{ config.author }}" />
 <meta name="designer" content="{{ config.author }}" />
 <meta name="keywords" content="{{ config.keywords }}"/>
+<meta name="description" content="{{ config.description }}" />
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -22,5 +23,9 @@
 {% include 'prefetch.swig' %}
 
 <!-- Css -->
-<!-- {{ css('http://cdn.bootcss.com/normalize/6.0.0/normalize.min.css') }} -->
 {{ css('sass/base/index') }}
+
+<!-- RSS -->
+{{ feed_tag('atom.xml') }}
+
+{% include './analytics.swig' %}

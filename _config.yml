@@ -7,7 +7,7 @@ title: MINFIVE
 subtitle: MINFIVE BLOG
 subtitle_desc: 日常学习与兴趣交流
 keywords: minfive, minfive blog, 前端开发, 全栈开发, node.js, javascript
-description: 这是博客的描述
+description: 日常学习与兴趣交流的个人博客
 introduction: 不思量，自难忘！
 author: Minfive
 github: https://github.com/Mrminfive
@@ -127,6 +127,7 @@ neat_html:
   exclude:
     - 'baidu_verify_lBEZd5Eyfg.html'
     - 'googlefd247a6616e15095.html'
+    - 'BingSiteAuth.xml'
   
 neat_css:
   enable: true
