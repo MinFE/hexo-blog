@@ -92,13 +92,15 @@ hexo.extend.generator.register('lunr', function(locals){
                 cates: cates.join(','),
                 href: post.permalink
             });
+            
             store[post.permalink] = {
                 url: post.permalink,
                 title: post.title,
                 tags: tags,
                 cates: cates,
-                cover: post.cover,
-                desc: post.subtitle || post.excerpt || ""
+                cover: post.cover || hexo.config.default_cover,
+                desc: post.subtitle || post.excerpt || "",
+                date: moment(post.date).locale('zh-cn').format('ll')
             };
         });
         finalData.push({

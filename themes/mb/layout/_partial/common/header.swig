@@ -13,7 +13,7 @@
 		<ul class="header-other-ment__list clearfix">
 			<li class="header-other-ment__item header-other-ment__item--search">
 				<a id="mb-search-trigger" href="javascript:void(0)" title="search">
-					<i class="iconfont icon-sousuo"></i>
+					<i class="iconfont icon-search"></i>
 				</a>
 				<form id="mb-search-from" class="header__search" action="/search/">
 					<input class="input" type="text" name="search" placeholder="Search">
@@ -21,7 +21,7 @@
 			</li>
 			<li class="header-other-ment__item header-other-ment__item--menu">
 				<a id="mb-menu-trigger" href="javascript:void(0)" title="menu">
-					<i class="iconfont icon-caidan01"></i>
+					<i class="iconfont icon-menu"></i>
 				</a>
 			</li>
 		</ul>

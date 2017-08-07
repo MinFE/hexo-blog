@@ -1,0 +1,26 @@
+.mb-search-wrap {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: .5em;
+
+    & > em {
+        margin: 0 5px;
+        color: $main-color;
+    }
+}
+
+.mb-search-loading {
+    padding: 2em;
+    text-align: center;
+    color: $main-color;
+    @keyframes loading {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    & > i {
+        display: inline-block;
+        animation: loading 2s linear infinite;
+    }
+}

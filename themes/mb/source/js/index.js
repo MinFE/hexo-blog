@@ -213,7 +213,7 @@ window.onload = function() {
                             time: time,
                             now: now,
                             aims: aims,
-                            spendTime
+                            spendTime: spendTime
                         });
                 }
             },

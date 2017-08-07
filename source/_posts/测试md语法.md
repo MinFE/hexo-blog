@@ -1,7 +1,7 @@
 ---
 title: Markdown语法测试
 cover: //img.aotu.io/Manjiz/2015/manjiz-151116-cover.png
-draft: false
+draft: true
 date: 2017-07-30, 15:04:04
 categories: 开发
 tags:
@@ -13,6 +13,8 @@ author:
 ---
 
 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
+
+dd
 
 > * 整理知识，学习笔记
 > * 发布日记，杂文，所见所想

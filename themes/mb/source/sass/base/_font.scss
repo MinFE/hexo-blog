@@ -10,30 +10,32 @@ $path: '../../fonts/';
 
 .iconfont {
   font-family:"iconfont" !important;
-  font-size:16px;
+  font-size:20px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-sousuo:before { content: "\f002d"; }
+.icon-menu:before { content: "\e6c1"; }
 
-.icon-duihuaqipao2:before { content: "\f005a"; }
+.icon-search:before { content: "\e777"; }
 
-.icon-unie61d:before { content: "\e60a"; }
+.icon-zhifubao:before { content: "\e66d"; }
 
-.icon-facebook:before { content: "\e6ae"; }
+.icon-butbacktotop:before { content: "\e62f"; }
 
-.icon-github:before { content: "\e735"; }
+.icon-zhihu:before { content: "\e619"; }
 
-.icon-caidan01:before { content: "\e606"; }
+.icon-tuitetwitter43:before { content: "\e60c"; }
 
-.icon-back-top:before { content: "\e61b"; }
+.icon-jishi-copy-copy:before { content: "\e601"; }
 
-.icon-xinjian:before { content: "\e6a1"; }
+.icon-email:before { content: "\e61e"; }
 
-.icon-zhihu:before { content: "\e634"; }
+.icon-weibo:before { content: "\e60d"; }
 
-.icon-aixin:before { content: "\e620"; }
+.icon-wechat:before { content: "\e614"; }
 
-.icon-tuite:before { content: "\e653"; }
+.icon-github:before { content: "\e600"; }
+
+.icon-tian7_facebook:before { content: "\e602"; }
